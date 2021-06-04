@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #EEEEEE;
+    color: black;
+    text-align: center;
+}
+
+
+/* Navigation Bar */
+.navBar ul{
+    list-style-type: none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343A40;
+}
+.navBar li {
+    float: left;
+}
+.nav-el{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;     
+    border-right: 1px solid #bbb;         
+}
+.active{
+    background-color: #488f25;
+    color: black;
+}
+.navBar li img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    padding-left: 10px;
+    float: right;
+    text-align: center;
+}
+.navBar li a:hover , .navBar li img:hover{
+    background-color: #53b324;
+}
+
+
+/* Container Stuff */
+h1{
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    
+}
+.container table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+span{
+    font-size: small;
+    margin-bottom: 5px;
+}
+.container div img{
+    display: inline;
+    padding: 30px;
+}
+.Temp{
+    display: inline;
+    padding: 30px;
+    font-size: small;
+    text-align: center;
+}
+.container ul li{
+    text-align: left;
+    padding: 5px;
+}
+.Spec{
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+/* Navigation buttons */
+.nav-btns {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #343A40;
+    color: #FFFFFF;
+}
+.nav-btns:hover {
+    background-color: #53b324;
+    color: black;
+    
+}
+
+
+/* Footer */
+footer{
+    text-align:center;
+}   
